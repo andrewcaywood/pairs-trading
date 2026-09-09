@@ -1,0 +1,35 @@
+[
+  {
+    "period": "covid_shock_2020_2021",
+    "observations": 505,
+    "total_return": 0.0860959313,
+    "annualized_return": 0.0420740481,
+    "annualized_volatility": 0.0374985179,
+    "sharpe_ratio": 1.1177597518,
+    "maximum_drawdown": -0.0431518861,
+    "trade_count": 7,
+    "win_rate": 0.8571428571
+  },
+  {
+    "period": "energy_shock_2022_2023",
+    "observations": 501,
+    "total_return": 0.0,
+    "annualized_return": 0.0,
+    "annualized_volatility": 0.0,
+    "sharpe_ratio": null,
+    "maximum_drawdown": 0.0,
+    "trade_count": 0,
+    "win_rate": null
+  },
+  {
+    "period": "recent_2024_2026",
+    "observations": 625,
+    "total_return": 0.0068751659,
+    "annualized_return": 0.0027664006,
+    "annualized_volatility": 0.0237960436,
+    "sharpe_ratio": 0.1279261987,
+    "maximum_drawdown": -0.0381688751,
+    "trade_count": 4,
+    "win_rate": 0.75
+  }
+]

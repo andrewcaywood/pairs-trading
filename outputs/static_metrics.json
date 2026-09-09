@@ -1,0 +1,35 @@
+[
+  {
+    "series": "strategy_net",
+    "observations": 1659,
+    "total_return": 0.0683242348,
+    "annualized_return": 0.0100897442,
+    "annualized_volatility": 0.0390598341,
+    "sharpe_ratio": 0.2765122789,
+    "maximum_drawdown": -0.1032113616,
+    "trade_count": 32,
+    "win_rate": 0.5625
+  },
+  {
+    "series": "strategy_no_cost",
+    "observations": 1659,
+    "total_return": 0.1106339519,
+    "annualized_return": 0.0160665846,
+    "annualized_volatility": 0.0390210246,
+    "sharpe_ratio": 0.4279478314,
+    "maximum_drawdown": -0.0837886833,
+    "trade_count": 0,
+    "win_rate": null
+  },
+  {
+    "series": "buy_and_hold",
+    "observations": 1659,
+    "total_return": 1.0573942066,
+    "annualized_return": 0.1158158689,
+    "annualized_volatility": 0.4774734943,
+    "sharpe_ratio": 0.4775214545,
+    "maximum_drawdown": -0.7115730693,
+    "trade_count": 0,
+    "win_rate": null
+  }
+]

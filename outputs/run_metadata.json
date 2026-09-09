@@ -1,0 +1,49 @@
+{
+  "data_source": "Yahoo Finance adjusted daily close",
+  "data_start": "2010-01-04",
+  "data_end": "2026-06-30",
+  "data_sha256": "2a8a31d4016422aa7c40baf9270c59b49f13873823a2fc8abfe9d3a6558688d4",
+  "research_config": {
+    "start_date": "2010-01-01",
+    "end_date_inclusive": "2026-06-30",
+    "universe": [
+      "XOM",
+      "CVX",
+      "COP",
+      "EOG",
+      "OXY",
+      "SLB",
+      "HAL",
+      "VLO",
+      "DVN",
+      "APA"
+    ],
+    "train_fraction": 0.6,
+    "significance_level": 0.05,
+    "selection_lookback": 756,
+    "walk_forward_lookback": 756,
+    "recalibration_frequency": 63,
+    "data_dir": "C:\\Users\\Andrew\\Documents\\ChatGPT\\Pairs trading\\data",
+    "output_dir": "C:\\Users\\Andrew\\Documents\\ChatGPT\\Pairs trading\\outputs"
+  },
+  "backtest_config": {
+    "zscore_window": 60,
+    "volatility_window": 20,
+    "entry_z": 2.0,
+    "exit_z": 0.5,
+    "target_volatility": 0.1,
+    "max_gross_leverage": 1.0,
+    "commission_per_share": 0.005,
+    "slippage_bps": 5.0,
+    "annual_borrow_rate": 0.02,
+    "annualization_factor": 252,
+    "initial_capital": 100000.0
+  },
+  "selected_pair": [
+    "EOG",
+    "OXY"
+  ],
+  "selection_sample_start": "2016-11-17",
+  "selection_sample_end": "2019-11-19",
+  "test_start": "2019-11-20"
+}

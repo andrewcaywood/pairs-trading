@@ -1,0 +1,22 @@
+[
+  {
+    "component": "slippage",
+    "return_drag": 0.006113381,
+    "initial_capital_equivalent": 611.3380955669
+  },
+  {
+    "component": "commission",
+    "return_drag": 0.0015672829,
+    "initial_capital_equivalent": 156.7282948837
+  },
+  {
+    "component": "short_borrow",
+    "return_drag": 0.0033945453,
+    "initial_capital_equivalent": 339.4545291239
+  },
+  {
+    "component": "total",
+    "return_drag": 0.0110752092,
+    "initial_capital_equivalent": 1107.5209195745
+  }
+]
